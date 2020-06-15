@@ -1,0 +1,64 @@
+<!--
+
+    N220 Section 25750
+    Harmanjot Singh
+    Tic Tac Toe
+    21 April 2020
+
+-->
+
+<html>
+    <meta charset="UTF-8" />
+    <!-- css styling file -->
+    <link rel="stylesheet" href="tictactoe.css">
+    <head>
+        <title>
+            Tic Tac Toe
+        </title>
+    </head>
+
+    <body onload="main()">
+        <h1>Tic Tac Toe</h1>
+        <!-- It was a lot of repetitive code and time consuming to create a HTML table like this through javascript.  -->
+        <!-- So I just decided to do it in the HTML file -->
+        <!-- Each button contains respective data row and data column  -->
+        <table id="main-table">
+            <tbody>
+                <tr>
+                    <td>
+                        <button data-row="0" data-column="0"></button>
+                    </td>
+                    <td>
+                        <button data-row="0" data-column="1"></button>
+                    </td>
+                    <td>
+                        <button data-row="0" data-column="2"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button data-row="1" data-column="0"></button>
+                    </td>
+                    <td>
+                        <button data-row="1" data-column="1"></button>
+                    </td>
+                    <td>
+                        <button data-row="1" data-column="2"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button data-row="2" data-column="0"></button>
+                    </td>
+                    <td>
+                        <button data-row="2" data-column="1"></button>
+                    </td>
+                    <td>
+                        <button data-row="2" data-column="2"></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="js/tictactoe.js"></script>
+    </body>
+</html>

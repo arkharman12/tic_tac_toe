@@ -1,0 +1,39 @@
+/*
+
+    N220 Section 25750
+    Harmanjot Singh
+    Tic Tac Toe
+    21 April 2020
+
+*/
+
+/* list of stylings to different elements */
+#main-table {
+	border-collapse: collapse;
+}
+
+#main-table td {
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	border: 1px solid black;
+}
+
+#main-table .xPlayer {
+    font-size: 72px;
+    text-align: center;
+}
+
+#main-table .oPlayer {
+    font-size: 72px;
+    text-align: center;
+}
+
+#main-table button {
+	display: block;
+	border: none;	
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
